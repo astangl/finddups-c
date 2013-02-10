@@ -1,0 +1,5 @@
+Experimental version of finddups to recursively search for duplicate files
+in one or more specified directories. This version is written in C and
+attempts to minimize file reads by intelligently drawing inferences whenever
+possible.
+
