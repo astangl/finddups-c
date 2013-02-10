@@ -382,8 +382,8 @@ int main(int argc, char **argv)
 	struct dupNode *dups;
 	struct fe *fp;
 
-	if (argc < 1) {
-		fprintf(stderr, "usage: finddups dir1 [dir2 ... [dirN]]");
+	if (argc < 2) {
+		fprintf(stderr, "usage: finddups dir1 [dir2 ... [dirN]]\n");
 		exit(EX_USAGE);
 	}
 
